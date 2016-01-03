@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Configuration.Clustering", "Akka.Configuration.Clustering\Akka.Configuration.Clustering.csproj", "{5A605127-0CCA-4094-9DBF-3224091F6CD5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{05EF1B62-48DC-4983-885D-A821E8173483}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleSeeder", "Samples\SampleSeeder\SampleSeeder.csproj", "{FDE0AD19-D65E-4AA3-A25F-A9C006E60A23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +19,15 @@ Global
 		{5A605127-0CCA-4094-9DBF-3224091F6CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A605127-0CCA-4094-9DBF-3224091F6CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A605127-0CCA-4094-9DBF-3224091F6CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDE0AD19-D65E-4AA3-A25F-A9C006E60A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE0AD19-D65E-4AA3-A25F-A9C006E60A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE0AD19-D65E-4AA3-A25F-A9C006E60A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE0AD19-D65E-4AA3-A25F-A9C006E60A23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FDE0AD19-D65E-4AA3-A25F-A9C006E60A23} = {05EF1B62-48DC-4983-885D-A821E8173483}
 	EndGlobalSection
 EndGlobal
